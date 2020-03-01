@@ -8,9 +8,12 @@ using Planirovshik_core_3.Models;
 
 namespace Planirovshik_core_3.Controllers
 {
-    public class HomeController : Controller
+    public class AccountController : Controller
     {
-        
+        public IActionResult Autorisation()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
